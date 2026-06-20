@@ -1,8 +1,8 @@
-# Network Scanner & Packet Analyzer
-A professional network sniffer developed using Python and the `Scapy` library to monitor and analyze live network traffic.
+# Network Scanner & Port Analyzer
+A professional network auditing tool developed using Python and the `Scapy` library to scan networks, discover active hosts, and perform port scanning.
 
 ## Features
-- **Live Packet Capture:** Captures live data packets flowing through the network interface.
-- **IP Filtering:** Specifically filters and isolates IP-based traffic, ignoring unnecessary noise.
-- **Metadata Extraction:** Extracts critical packet details including Source IP, Destination IP, and Protocol IDs (TCP/UDP).
-- **Controlled Environment:** Hardcoded packet threshold (e.g., 20 packets) for safe and controlled security analysis.
+- **Live Packet Capture & Scanning:** Scans the network interface to identify active devices.
+- **Port Status Checker:** Analyzes specified target ports to determine whether they are **Open** or **Closed** (TCP/UDP).
+- **Metadata Extraction:** Extracts critical packet details including Source IP, Destination IP, and Protocol IDs.
+- **Controlled Environment:** Hardcoded packet and port thresholds for safe, authorized penetration testing and security analysis.
